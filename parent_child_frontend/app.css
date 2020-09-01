@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+    font-size: 40px
+}
+
+h2 {
+    text-align: center;
+}
+
+
+.kids {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.parents {
+    display: flex;
+    flex-wrap: wrap
+}
+.card {
+    margin: 1em;
+    padding: 1em;
+    justify-content: space-around;
+    border: solid 0.5px black;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 12px
+}
+
+
+img {
+    object-fit: cover;
+    width:200px;
+    height:200px;
+    justify-content: center;
+}
+
+#kid-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.child-of {
+    display: flex;
+}
+
+section div{
+    margin: 1em;
+    padding: 1em;
+    justify-items: center;
+    border: solid 0.5px black;
+    text-align: center;
+
+}
